@@ -22,6 +22,7 @@ export default {
     TITLE: '#FFF',
 
     GRADIENT: ['#B83341', '#E03F50'],
+    GRADIENT2: ['#572D31', '#93797B'],
   },
 
   FONTS: {

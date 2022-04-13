@@ -1,11 +1,24 @@
 import React from 'react'
 import { Text } from 'react-native';
-import { Container } from './styles';
+
+import { Input } from '@components/input';
+import { Container, ContainerAlter } from './styles';
 
 export function SignIn(){
   return (
-    <Container>
-      <Text>Splash</Text>
-    </Container>
+    <ContainerAlter>
+      <Input 
+        placeholder='E-mail'
+        type='secondary'
+        autoCorrect={false}
+        autoCapitalize="none"
+      />
+
+      <Input 
+        placeholder='Senha'
+        type='secondary'
+        secureTextEntry={true}
+      />
+    </ContainerAlter>
   );
 }
